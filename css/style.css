@@ -6,8 +6,6 @@
 body{
     margin: 0;
     padding: 0;
-    height: auto;
-    width: auto;
 }
 nav{
     display: flex;
@@ -50,7 +48,7 @@ nav a:hover{
 }
 
 .splashpage-box h1{
-    font-size: 24rem;
+    font-size: 21vmax;
     margin: 0;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
@@ -80,11 +78,12 @@ nav a:hover{
 
 
 .dancingbear{
-    margin-top: 8rem;
+    margin-top: 6rem;
     display: flex;
     flex-direction: row;
     justify-content: center;
-
+    width: auto;
+    height: auto;
 
 }
 
@@ -264,6 +263,8 @@ footer a{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 0;
+
 }
 
 .contact-col h1{
@@ -293,8 +294,8 @@ footer a{
     size: 1px;
     border: solid;
     background-color:black;
-    margin-top: 3rem;
-    width: 100%;
+    margin-top: 1rem;
+    width: 111.7rem;
 }
 .one-col{
     display: flex;
@@ -303,11 +304,50 @@ footer a{
     border: 0.2rem black solid;
 }
 
-
 input{
-    margin: 2.56rem;
-    width: 8rem;
+    box-sizing: border-box;
+    border: 2px black solid;
+}
+
+
+
+input[type=text]{
+    margin: 1rem;
+    padding: 1rem;
+    width: 20rem;
+    border-radius: 3rem;
+  
+  }
+
+
+
+input[type=email]{
+
+    margin: 1rem;
+    padding: 1rem;
+    width: 20rem;
+    border-radius: 3rem;
+}
+
+input[type=submit]{
+
+    margin: 1rem 11rem;
+
+    background-color: green;
+    padding: 0.5rem;
+}
+
+input[type=submit]:focus{
+    margin: 1rem 11rem;
+    background-color: lightgreen;
+    padding: 0.5rem;
+}
     
+
+textarea{
+ box-sizing: border-box;
+ border: 2px black solid;
+ padding: 3.45rem 4.3rem;
 }
 
 
