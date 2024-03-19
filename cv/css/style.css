@@ -1,0 +1,366 @@
+
+@keyframes navbar {
+    100% {color: red;}
+    100% {color: yellow;}
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: blue;
+    border-bottom: 3px black solid;
+
+}
+nav p{
+    margin: 0;
+    padding: 0.5rem;
+    height: auto;
+    width: auto;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    font-weight: bolder;
+}
+nav a{
+    color: red;
+    text-decoration: none;
+    animation-name: navbar;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
+
+nav a:hover{
+    color: yellow;
+}
+.splashpage-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    height: 56.6rem;
+    
+}
+
+.splashpage-box h1{
+    font-size: 20.5vmax;
+    margin: 0;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    color: orangered;
+    inline-size: 98%;
+    overflow-wrap: break-word;
+    hyphens:manual;
+    z-index: 1;
+}
+
+.sp-index{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 0;
+    position: absolute;
+    padding-top: 16rem;
+    width: auto;
+    height: auto;
+   
+}
+
+.sp-index img{
+    height:  100%;
+    width: 100%;
+}
+
+
+.sp-index h2{
+    margin-top: 8rem;
+    font-family: "Corben", serif;
+    color: darkgreen;
+    z-index: 1;
+}
+
+
+.dancingbear{
+    margin-top: 6rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: auto;
+    height: auto;
+
+}
+
+.dancingbear a{
+    text-decoration: none;
+}
+
+.contentpage{
+    margin: 0;
+    padding: 0;
+
+}
+
+.contentpage img{
+    margin-top: 6rem;
+    margin-left: 41%;
+    border: 20px blueviolet double;
+    border-radius: 100px;
+    width: 15%;
+    height: 15%;
+} 
+
+
+.contentpage h2{
+    margin: 0;
+    padding: auto;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 5rem;
+    text-align: center;
+    color: blue;
+}
+
+
+
+.contentpage p{
+    margin-bottom: 4rem;
+    text-align: center;
+    font-family: "IBM Plex Mono", monospace;
+}
+
+hr{
+    margin-top: 8rem;
+    margin-bottom: 0;
+    border: 4px lightgrey outset;
+    width: 111.35rem;
+    padding: 1px;
+    background-color: lightgray;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cpage-col{
+
+    background-color:green;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.cpage-col h2{
+    margin-top: 2rem;
+    color:plum;
+    font-family:"Bebas Neue", 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-stretch: expanded;
+    font-size: 8.5rem;
+    margin-bottom:0;
+  
+    
+}
+
+.cpage-row{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: left;
+    text-align: center;
+    margin: 5rem;
+
+
+}
+
+.card{
+    max-width: 20rem;
+    max-height: 35rem;
+    border: 8px lightgray outset;
+    background-color: darkgray;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
+.card:hover{
+    max-width: 20rem;
+    max-height: 35rem;
+    border: 8px lightgray inset;
+    background-color: darkgrey;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
+
+.card h3{
+    color:blue;
+    font-family: "IBM Plex Mono", monospace;
+    font-size: x-large;
+    font-weight: bolder;
+    letter-spacing: 1rem;
+    margin-left: 1rem;
+}
+
+.card ul, dl{
+    display: flex;
+    flex-direction: column;
+    color:blue ;
+    margin: 2rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.card a{
+    color: red;
+}
+
+#card-one-img{
+    margin: 20px;
+    width: 90%;
+    height: 30%;
+    border: none;
+    border-radius: 0;
+    margin-left: auto;
+    margin-right:auto;
+
+}
+
+#card-two-img{
+    margin: 10px;
+    width: 50%;
+    height: 60%;
+    border: none;
+    border-radius: 0;
+    margin-left: auto;
+    margin-right:auto;
+
+}
+
+#card-three-img{
+    margin: 10px;
+    width: 90%;
+    height: 50%;
+    border: none;
+    border-radius: 0;
+    margin-left: auto;
+    margin-right:auto;
+
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: blue;   
+    padding: 10px;
+    border-top: 3px black solid;
+
+
+}
+footer a{
+    color: yellow;
+    font-size: medium;
+}
+
+/* CONTACT.HTML*/
+
+.contact-col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+
+}
+
+.contact-col h1{
+    font-family: 'Open Sans', sans-serif;
+    color: orangered;
+    font-size: 10rem;
+    margin:0;
+    text-align: center;
+}
+
+.contact-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+   
+}
+.contact-row p{
+    font-size: 3rem;
+    word-spacing: 4rem;
+    font-weight: bold;
+    margin: 6rem;
+    padding-right: 5rem;
+    justify-content: right;
+}
+.contact-col hr{
+    size: 1px;
+    border: solid;
+    background-color:black;
+    margin-top: 1rem;
+    width: 111.7rem;
+}
+.one-col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 0.2rem black solid;
+}
+
+input{
+    box-sizing: border-box;
+    border: 2px black solid;
+}
+
+
+
+input[type=text]{
+    margin: 1rem;
+    padding: 1rem;
+    width: 20rem;
+    border-radius: 3rem;
+  
+  }
+
+
+
+input[type=email]{
+
+    margin: 1rem;
+    padding: 1rem;
+    width: 20rem;
+    border-radius: 3rem;
+}
+
+input[type=submit]{
+
+    margin: 1rem 11rem;
+
+    background-color: green;
+    padding: 0.5rem;
+}
+
+input[type=submit]:focus{
+    margin: 1rem 11rem;
+    background-color: lightgreen;
+    padding: 0.5rem;
+}
+    
+
+textarea{
+ box-sizing: border-box;
+ border: 2px black solid;
+ padding: 3.45rem 4.3rem;
+}
+
+
+
+
+
+
