@@ -48,7 +48,7 @@ nav a:hover{
 }
 
 .splashpage-box h1{
-    font-size: 21vmax;
+    font-size: 20.5vmax;
     margin: 0;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
@@ -56,24 +56,32 @@ nav a:hover{
     inline-size: 98%;
     overflow-wrap: break-word;
     hyphens:manual;
+    z-index: 1;
 }
 
 .sp-index{
     display: flex;
     flex-direction: column;
     align-items: center;
-    z-index: -1;
+    z-index: 0;
     position: absolute;
-    padding-top: 17rem;
+    padding-top: 16rem;
     width: auto;
-    height: 40.4rem;
-
+    height: auto;
+   
 }
+
+.sp-index img{
+    height:  100%;
+    width: 100%;
+}
+
 
 .sp-index h2{
     margin-top: 8rem;
     font-family: "Corben", serif;
     color: darkgreen;
+    z-index: 1;
 }
 
 
@@ -136,7 +144,7 @@ hr{
 }
 
 .cpage-col{
-    /*background-color: rgb(84, 139, 112);*/
+
     background-color:green;
     display: flex;
     flex-direction: column;
@@ -168,8 +176,8 @@ hr{
 }
 
 .card{
-    width: 20rem;
-    height: 35rem;
+    max-width: 20rem;
+    max-height: 35rem;
     border: 8px lightgray outset;
     background-color: darkgray;
     margin-left: auto;
@@ -178,8 +186,8 @@ hr{
 }
 
 .card:hover{
-    width: 20rem;
-    height: 35rem;
+    max-width: 20rem;
+    max-height: 35rem;
     border: 8px lightgray inset;
     background-color: darkgrey;
     margin-left: auto;
@@ -193,7 +201,7 @@ hr{
     font-family: "IBM Plex Mono", monospace;
     font-size: x-large;
     font-weight: bolder;
-    letter-spacing: 10px;
+    letter-spacing: 1rem;
     margin-left: 1rem;
 }
 
@@ -272,6 +280,7 @@ footer a{
     color: orangered;
     font-size: 10rem;
     margin:0;
+    text-align: center;
 }
 
 .contact-row{
