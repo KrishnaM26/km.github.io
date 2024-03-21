@@ -355,7 +355,7 @@ input[type=submit]:focus{
 
 textarea{
  box-sizing: border-box;
- border: 2px black solid;
+ border: 5px black solid;
  padding: 3.45rem 4.3rem;
 }
 
