@@ -49,8 +49,7 @@ nav a:hover{
 
 .splashpage-box h1{
     font-size: 20.5vmax;
-    margin: 0;
-    padding: 2%;
+    margin-top: 2%;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
     color: orangered;
@@ -73,13 +72,13 @@ nav a:hover{
 }
 
 .sp-index img{
-    height:  100%;
-    width: 100%;
+    height:  24rem;
+    width: 35rem;
 }
 
 
 .sp-index h2{
-    margin-top: 9rem;
+    margin-top: 8rem;
     font-family: "Corben", serif;
     color: darkgreen;
     z-index: 1;
