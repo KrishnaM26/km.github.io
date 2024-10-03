@@ -136,7 +136,7 @@ hr{
     margin-top: 8rem;
     margin-bottom: 0;
     border: 4px lightgrey outset;
-    width: 100%;
+    width: auto;
     padding: 1px;
     background-color: lightgray;
     margin-left: auto;
